@@ -1,0 +1,150 @@
+#title{
+  background-color: #ff4c68;
+  height: 1050px;
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+  width: 100%;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand{
+    font-family: 'Montserrat-Blod', sans-serif;
+    font-size: 2rem;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+  padding: 0 10px;
+}
+h1{
+  font-family: 'Montserrat-Blod', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+.imgrotate{
+  width: 70%;
+  height: 100px;
+  transform:translateX(600px) rotate(30deg);
+  right: 30%;
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.downbut{
+  margin: 5% 3% 5% 0;
+}
+.check{
+  width: 100px;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.check:hover{
+  color: #ff4c68;
+}
+.circle{
+color: #ef8172;
+margin-bottom: 1rem;
+}
+.circle:hover{
+  color: #ff4c68;
+}
+.heart{
+color: #ef8172;
+margin-bottom: 1rem;
+}
+.heart:hover{
+  color: #ff4c68;
+}
+p{
+  color: #8f8f8f;
+}
+h3{
+  font-family: 'Montserrat-bold';
+}
+.feature-box{
+  text-align: center;
+  padding:5%;
+}
+
+
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+h2{
+  font-size: 3rem;
+  font-family: 'Montserrat-bold';
+  line-height: 1.5;
+}
+.testo{
+  width: 10%;
+  border-radius: 100%;
+  margin: 2%;
+}
+
+
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricingcol{
+  padding: 3% 2%;
+}
+@media(max-width:1028){
+  #title{
+    text-align: center;
+  }
+  .imgrotate{
+    position: static;
+    transform: rotate(0);
+  }
+}
+#cta{
+  text-align:center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+
+}
+.h31{
+  font-family: 'Montserrat-Blod', sans-serif;
+font-size: 3rem;
+line-height: 1.5;
+color: white;
+text-align: center;
+}
+#footer{
+  text-align: center;
+    font-family: 'Montserrat-Blod', sans-serif;
+    font-style: 1rem;
+    padding:  3% 15%;
+}
+.lo{
+  margin: 20px 10px;
+}
